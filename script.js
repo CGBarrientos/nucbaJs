@@ -60,11 +60,22 @@ frasesilla ("vecinirijillo", 9)
 
 //---------------------------------------------------
 
-let listarda = ([]) => {
-    console.log(listarda)
+function listarda ([elem1, elem2,elem3, elem4]) {
+    console.log([elem1, elem2,elem3, elem4])
 }
-arrays(["tomate", "lechuga" ,"papa", "cebolla"]);
+listarda(["tomate", "lechuga" ,"papa", "cebolla"]);
 
 //---------------------------------------------------
 
+function numeritos ([n1,n2,n3,n4,n5,n6,n7,n8,n9,n10]) {
+    console.log([n1,n2,n3,n4,n5,n7,n8,n9,n10])
+}
+numeritos([1,3,5,7,9,12,15,18,21,24]);
 
+//---------------------------------------------------
+
+function multiplicacionConArray ([n1,n2,n3,n4],multiplo){
+    resultado = [n1,n2,n3,n4] * multiplo;
+    console.log(resultado)
+}
+multiplicacionConArray ([1,2,3,4],5)
