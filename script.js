@@ -74,8 +74,8 @@ numeritos([1,3,5,7,9,12,15,18,21,24]);
 
 //---------------------------------------------------
 
-function multiplicacionConArray ([n1,n2,n3,n4],multiplo){
-    resultado = [n1,n2,n3,n4] * multiplo;
+function multiplicacionConArray (array,multiplo){
+    resultado = array * multiplo;
     console.log(resultado)
 }
-multiplicacionConArray ([1,2,3,4],5)
+multiplicacionConArray ([1,2,3,4],5);
